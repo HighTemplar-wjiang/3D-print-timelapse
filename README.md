@@ -108,7 +108,7 @@ The pipeline for shooting a raw timelapse video is:
 For more details and Python implementation, please refer to the _src/gcode_modifier.ipynb_ file (Jupyter Notebook). 
 
 
-### Exacting key frames
+### Extracting key frames
 We now have a raw timelapse video, but most of the frames are just showing the head moving around on top of the printing area, which is not very fun to watch. The following steps will help us extract the key frames (aka the frames we are interested in) and generate a video file as you see in the beginning. 
 
 #### Computing matching scores 
